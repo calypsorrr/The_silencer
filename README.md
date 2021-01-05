@@ -4,4 +4,5 @@ Met dit project willen we studenten in de bibliotheek op de hoogte brengen wanne
 
 Hier is de documentatie van elk onderdeel:
 Geluidssensor: https://www.dfrobot.com/product-83.html
+
 LED-matrix: https://wiki.dfrobot.com/32x16_RGB_LED_Matrix_-_6mm_pitch_SKU_DFR0471
