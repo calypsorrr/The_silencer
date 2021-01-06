@@ -7,6 +7,7 @@ Geluidssensor: https://www.dfrobot.com/product-83.html
 LED-matrix: https://wiki.dfrobot.com/32x16_RGB_LED_Matrix_-_6mm_pitch_SKU_DFR0471
 
 Hier zijn de libraries die ik heb gebruikt:
+
 Chrono.h: https://github.com/SofaPirate/Chrono
 
 adafruit.gfx.h: https://github.com/adafruit/Adafruit-GFX-Library
