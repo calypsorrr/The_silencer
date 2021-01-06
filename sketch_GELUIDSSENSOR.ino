@@ -5,10 +5,8 @@
     To print out the measurments and turn the led on when there is a sound.
 
     The circuit:
-      Input:
-       SoundSensor
-      Output
-       Led
+      Input: SoundSensor
+      Output: Led
 
     Created 5/01/2021
     By Myrthe Diepeveen
