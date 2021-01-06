@@ -8,5 +8,7 @@ LED-matrix: https://wiki.dfrobot.com/32x16_RGB_LED_Matrix_-_6mm_pitch_SKU_DFR047
 
 Hier zijn de libraries die ik heb gebruikt:
 Chrono.h: https://github.com/SofaPirate/Chrono
+
 adafruit.gfx.h: https://github.com/adafruit/Adafruit-GFX-Library
+
 RGBmatrixPanel.h: https://github.com/adafruit/RGB-matrix-Panel
