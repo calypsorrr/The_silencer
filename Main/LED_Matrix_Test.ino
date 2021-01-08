@@ -29,23 +29,23 @@ void setup() {
 
 void loop() {
   matrix.fillScreen(matrix.Color333(7, 0, 0));      // Turns the matrix Red
-  delay(100);
+  delay(1000);
   
   matrix.fillScreen(matrix.Color333(0, 7, 0));      // Turns the matrix Green
-  delay(100);
+  delay(1000);
   
   matrix.fillScreen(matrix.Color333(0, 0, 7));      // Turns the matrix Blue
-  delay(100);
+  delay(1000);
   
   matrix.fillScreen(matrix.Color333(7, 7, 0));      // Turns the matrix Yellow
-  delay(100);
+  delay(1000);
 
   matrix.fillScreen(matrix.Color333(7, 0, 7));      // Turns the matrix Purple
-  delay(100);
+  delay(1000);
 
   matrix.fillScreen(matrix.Color333(7, 7, 7));      // Turns the matrix white
-  delay(100);
+  delay(1000);
   
   matrix.fillScreen(matrix.Color333(0, 0, 0));      // Turns the matrix Black
-  delay(100);
+  delay(1000);
 }
