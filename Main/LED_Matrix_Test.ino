@@ -8,7 +8,7 @@
 
     Created 06 January 2021
     By Tibo Smet
-    Modified 06 January 2021
+    Modified 10 January 2021
     By Tibo Smet
 */
 
@@ -24,28 +24,28 @@
 RGBmatrixPanel matrix(A, B, C, CLK, LAT, OE, false);
 
 void setup() {
+  Serial.begin(9600);                      // Starts Serial monitor
   matrix.begin();
 }
 
 void loop() {
-  matrix.fillScreen(matrix.Color333(7, 0, 0));      // Turns the matrix Red
-  delay(1000);
+  Serial.print("Sound level 0");
+  matrix.fillScreen(matrix.Color333(0, 0, 0));      // Turns the matrix Green
+  delay(3000);
   
+  Serial.print("Sound level 1");
   matrix.fillScreen(matrix.Color333(0, 7, 0));      // Turns the matrix Green
-  delay(1000);
-  
-  matrix.fillScreen(matrix.Color333(0, 0, 7));      // Turns the matrix Blue
-  delay(1000);
-  
+  delay(3000);
+
+  Serial.print("Sound level 2");
   matrix.fillScreen(matrix.Color333(7, 7, 0));      // Turns the matrix Yellow
-  delay(1000);
+  delay(3000);
 
-  matrix.fillScreen(matrix.Color333(7, 0, 7));      // Turns the matrix Purple
-  delay(1000);
+  Serial.print("Sound level 3");
+  matrix.fillScreen(matrix.Color333(7, 3, 0));      // Turns the matrix Yellow
+  delay(3000);
 
-  matrix.fillScreen(matrix.Color333(7, 7, 7));      // Turns the matrix white
-  delay(1000);
-  
-  matrix.fillScreen(matrix.Color333(0, 0, 0));      // Turns the matrix Black
-  delay(1000);
+  Serial.print("Sound level 4");
+  matrix.fillScreen(matrix.Color333(7, 0, 0));      // Turns the matrix Red
+  delay(3000);
 }
