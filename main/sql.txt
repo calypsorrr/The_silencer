@@ -1,0 +1,3 @@
+msg.sound = msg.payload.replace("Sound=", "")
+msg.topic = "INSERT INTO bib_sound(Sound) VALUES( "+msg.sound + " );"
+return msg;
